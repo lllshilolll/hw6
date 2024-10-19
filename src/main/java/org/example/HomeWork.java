@@ -8,7 +8,6 @@ public class HomeWork {
      * Требуется реализовать интерфейс MorseTranslator в соответствии с JavaDoc описанием.
      */
     public MorseTranslator morseTranslator() {
-        return null;
+        return new MorseTranslatorImpl();
     }
-
 }
